@@ -15,7 +15,7 @@ require_once 'includes/signup_view.inc.php';
 
     <form action="includes/signup.inc.php" method="post">
         <input type="text" name="username" placeholder="Username">
-        <input type="password" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
         <input type="text" name="email" placeholder="E-mail">
         <button>Sign up</button>
     </form>
@@ -23,5 +23,6 @@ require_once 'includes/signup_view.inc.php';
     <?php
     check_signup_errors();
     ?>
+
 </body>
 </html>

@@ -13,6 +13,8 @@ session_set_cookie_params([
     'httponly' => true
 ]);
 
+session_start();
+
 // if not regenereated make it regenerate
 
 if (!isset($_SESSION["last_regeneration"])) {

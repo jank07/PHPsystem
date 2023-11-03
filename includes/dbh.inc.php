@@ -1,7 +1,7 @@
 <?php
 
 $host = 'localhost';
-$dbname = 'PHPsystem';
+$dbname = 'phpsystem';
 $dbusername = 'root';
 $dbpassword = '';
 
