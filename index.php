@@ -14,7 +14,9 @@ require_once 'includes/signup_view.inc.php';
     <h3>Signup</h3>
 
     <form action="includes/signup.inc.php" method="post">
-        
+        <?php
+        signup_inputs();
+        ?>
         <button>Sign up</button>
     </form>
 
